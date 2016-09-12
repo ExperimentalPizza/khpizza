@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
-<!-- saved from url=(0055)file:///C:/Users/nicholasf2/Documents/eatatkh/menu.html -->
+<!-- saved from url=(0064)file:///C:/Users/nicholasf2/Documents/eatatkh/finalhomepage.html -->
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>K &amp; H Pizza</title>
@@ -22,7 +22,6 @@ h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
 	padding-right: 15px;
 	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
-	cursor: crosshair;
 	filter: Xray;
 }
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
@@ -47,7 +46,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	min-width: 780px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
 	background-color: #E8E5C4; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	height: 13.5in;
+	height: 1305px;
 	margin-top: 0;
 	margin-right: auto;
 	margin-bottom: 0;
@@ -71,20 +70,17 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 300%;
 	color: #900;
-	border: medium solid #990000;
-	height: auto;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #990000;
+	height: 235;
 	width: auto;
 }
 /* ~~ These are the columns for the layout. ~~ 
-
 1) Padding is only placed on the top and/or bottom of the divs. The elements within these divs have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
-
 2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a div set to float right). Many times, padding can be used instead. For divs where this rule must be broken, you should add a "display:inline" declaration to the div's rule to tame a bug where some versions of Internet Explorer double the margin.
-
 3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar divs could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
-
 4) If you prefer your nav on the left instead of the right, simply float these columns the opposite direction (all left instead of all right) and they'll render in reverse order. There's no need to move the divs around in the HTML source.
-
 */
 .sidebar1 {
 	float: right;
@@ -92,7 +88,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	background-color: #E8E5C4;
 	padding-bottom: 10px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	height: 1027px;
+	height: 1036px;
 	border: medium solid #990000;
 }
 .content {
@@ -165,8 +161,7 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
 
 <body>
 <div class="container">
-  <div class="header"><!-- end .header --><img src="Nic_pizza-01.jpg" alt="k&amp;hpizza" width="25%" height="235">
-  <img src="logo.gif" alt="itsallgood" width="75%" height="235"></div>
+  <div class="header"><!-- end .header --><img src="Nic_pizza-01.jpg" alt="k&amp;hpizza" width="25%" height="235"><img src="logo.gif" alt="itsallgood" width="74%" height="235"></div>
   <div class="sidebar1">
     <ul class="nav">
       <li><a href="K &amp; H Pizza.html" style="font-weight: bold; color: #E8E5C4; font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;">Homepage</a></li>
